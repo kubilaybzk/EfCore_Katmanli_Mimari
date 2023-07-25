@@ -31,4 +31,9 @@
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\Config\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
