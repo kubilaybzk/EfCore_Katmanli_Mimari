@@ -1,9 +1,9 @@
 ﻿using System;
-using WebApi.Models;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace WebApi.Repositories.Config
+namespace Repositories.EFCore.Config
 {
     public class BookConfig : IEntityTypeConfiguration<Book>
     {
@@ -28,6 +28,5 @@ namespace WebApi.Repositories.Config
                  });
         }
     }
-
 }
 

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace WebApi.Models
+namespace Entities.Models
 {
     public class Book
     {

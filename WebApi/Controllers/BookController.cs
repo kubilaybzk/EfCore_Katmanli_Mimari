@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApi.Models;
-using WebApi.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.Models;
-using WebApi.Repositories;
+using Entities.Models;
+using Repositories.EFCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
